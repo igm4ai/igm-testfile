@@ -1,0 +1,594 @@
+{
+    "nvidia_smi_log": {
+        "timestamp": "Wed Aug 24 10:02:46 2022",
+        "driver_version": "460.32.03",
+        "cuda_version": "11.2",
+        "attached_gpus": "2",
+        "gpu": [
+            {
+                "@id": "00000000:25:00.0",
+                "product_name": "A100-SXM-80GB",
+                "product_brand": "Tesla",
+                "display_mode": "Enabled",
+                "display_active": "Disabled",
+                "persistence_mode": "Enabled",
+                "mig_mode": {
+                    "current_mig": "Disabled",
+                    "pending_mig": "Disabled"
+                },
+                "mig_devices": "None",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "4000",
+                "driver_model": {
+                    "current_dm": "N/A",
+                    "pending_dm": "N/A"
+                },
+                "serial": "1323021059647",
+                "uuid": "GPU-6c7fbd63-1ece-3d5a-cb2e-e554469f949b",
+                "minor_number": "1",
+                "vbios_version": "92.00.36.00.01",
+                "multigpu_board": "No",
+                "board_id": "0x2500",
+                "gpu_part_number": "692-2G506-0210-002",
+                "inforom_version": {
+                    "img_version": "G506.0210.00.03",
+                    "oem_object": "2.0",
+                    "ecc_object": "6.16",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None",
+                    "host_vgpu_mode": "N/A"
+                },
+                "ibmnpu": {
+                    "relaxed_ordering_mode": "N/A"
+                },
+                "pci": {
+                    "pci_bus": "25",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "20B210DE",
+                    "pci_bus_id": "00000000:25:00.0",
+                    "pci_sub_system_id": "146310DE",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "4",
+                            "current_link_gen": "4"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "16x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "replay_rollover_counter": "0",
+                    "tx_util": "0 KB/s",
+                    "rx_util": "1000 KB/s"
+                },
+                "fan_speed": "N/A",
+                "performance_state": "P0",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_display_clocks_setting": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "81251 MiB",
+                    "used": "3 MiB",
+                    "free": "81248 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "131072 MiB",
+                    "used": "2 MiB",
+                    "free": "131070 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "0 %",
+                    "memory_util": "0 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "fbc_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "Enabled",
+                    "pending_ecc": "Enabled"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "sram_correctable": "0",
+                        "sram_uncorrectable": "0",
+                        "dram_correctable": "0",
+                        "dram_uncorrectable": "0"
+                    },
+                    "aggregate": {
+                        "sram_correctable": "0",
+                        "sram_uncorrectable": "0",
+                        "dram_correctable": "0",
+                        "dram_uncorrectable": "0"
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_pagelist": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_pagelist": "N/A"
+                    },
+                    "pending_blacklist": "N/A",
+                    "pending_retirement": "N/A"
+                },
+                "remapped_rows": {
+                    "remapped_row_corr": "0",
+                    "remapped_row_unc": "0",
+                    "remapped_row_pending": "No",
+                    "remapped_row_failure": "No",
+                    "row_remapper_histogram": {
+                        "row_remapper_histogram_max": "640 bank(s)",
+                        "row_remapper_histogram_high": "0 bank(s)",
+                        "row_remapper_histogram_partial": "0 bank(s)",
+                        "row_remapper_histogram_low": "0 bank(s)",
+                        "row_remapper_histogram_none": "0 bank(s)"
+                    }
+                },
+                "temperature": {
+                    "gpu_temp": "30 C",
+                    "gpu_temp_max_threshold": "92 C",
+                    "gpu_temp_slow_threshold": "89 C",
+                    "gpu_temp_max_gpu_threshold": "85 C",
+                    "gpu_target_temperature": "N/A",
+                    "memory_temp": "43 C",
+                    "gpu_temp_max_mem_threshold": "95 C"
+                },
+                "supported_gpu_target_temp": {
+                    "gpu_target_temp_min": "N/A",
+                    "gpu_target_temp_max": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P0",
+                    "power_management": "Supported",
+                    "power_draw": "65.12 W",
+                    "power_limit": "400.00 W",
+                    "default_power_limit": "400.00 W",
+                    "enforced_power_limit": "400.00 W",
+                    "min_power_limit": "100.00 W",
+                    "max_power_limit": "400.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "210 MHz",
+                    "sm_clock": "210 MHz",
+                    "mem_clock": "1593 MHz",
+                    "video_clock": "585 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "1155 MHz",
+                    "mem_clock": "1593 MHz"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "1155 MHz",
+                    "mem_clock": "1593 MHz"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1410 MHz",
+                    "sm_clock": "1410 MHz",
+                    "mem_clock": "1593 MHz",
+                    "video_clock": "1290 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "1410 MHz"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": {
+                    "supported_mem_clock": {
+                        "value": "1593 MHz",
+                        "supported_graphics_clock": [
+                            "1410 MHz",
+                            "1395 MHz",
+                            "1380 MHz",
+                            "1365 MHz",
+                            "1350 MHz",
+                            "1335 MHz",
+                            "1320 MHz",
+                            "1305 MHz",
+                            "1290 MHz",
+                            "1275 MHz",
+                            "1260 MHz",
+                            "1245 MHz",
+                            "1230 MHz",
+                            "1215 MHz",
+                            "1200 MHz",
+                            "1185 MHz",
+                            "1170 MHz",
+                            "1155 MHz",
+                            "1140 MHz",
+                            "1125 MHz",
+                            "1110 MHz",
+                            "1095 MHz",
+                            "1080 MHz",
+                            "1065 MHz",
+                            "1050 MHz",
+                            "1035 MHz",
+                            "1020 MHz",
+                            "1005 MHz",
+                            "990 MHz",
+                            "975 MHz",
+                            "960 MHz",
+                            "945 MHz",
+                            "930 MHz",
+                            "915 MHz",
+                            "900 MHz",
+                            "885 MHz",
+                            "870 MHz",
+                            "855 MHz",
+                            "840 MHz",
+                            "825 MHz",
+                            "810 MHz",
+                            "795 MHz",
+                            "780 MHz",
+                            "765 MHz",
+                            "750 MHz",
+                            "735 MHz",
+                            "720 MHz",
+                            "705 MHz",
+                            "690 MHz",
+                            "675 MHz",
+                            "660 MHz",
+                            "645 MHz",
+                            "630 MHz",
+                            "615 MHz",
+                            "600 MHz",
+                            "585 MHz",
+                            "570 MHz",
+                            "555 MHz",
+                            "540 MHz",
+                            "525 MHz",
+                            "510 MHz",
+                            "495 MHz",
+                            "480 MHz",
+                            "465 MHz",
+                            "450 MHz",
+                            "435 MHz",
+                            "420 MHz",
+                            "405 MHz",
+                            "390 MHz",
+                            "375 MHz",
+                            "360 MHz",
+                            "345 MHz",
+                            "330 MHz",
+                            "315 MHz",
+                            "300 MHz",
+                            "285 MHz",
+                            "270 MHz",
+                            "255 MHz",
+                            "240 MHz",
+                            "225 MHz",
+                            "210 MHz"
+                        ]
+                    }
+                },
+                "processes": null,
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:50:00.0",
+                "product_name": "A100-SXM-80GB",
+                "product_brand": "Tesla",
+                "display_mode": "Enabled",
+                "display_active": "Disabled",
+                "persistence_mode": "Enabled",
+                "mig_mode": {
+                    "current_mig": "Disabled",
+                    "pending_mig": "Disabled"
+                },
+                "mig_devices": "None",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "4000",
+                "driver_model": {
+                    "current_dm": "N/A",
+                    "pending_dm": "N/A"
+                },
+                "serial": "1323021059546",
+                "uuid": "GPU-d1824ae0-d312-b822-c6f5-be822f9eecc6",
+                "minor_number": "2",
+                "vbios_version": "92.00.36.00.01",
+                "multigpu_board": "No",
+                "board_id": "0x5000",
+                "gpu_part_number": "692-2G506-0210-002",
+                "inforom_version": {
+                    "img_version": "G506.0210.00.03",
+                    "oem_object": "2.0",
+                    "ecc_object": "6.16",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None",
+                    "host_vgpu_mode": "N/A"
+                },
+                "ibmnpu": {
+                    "relaxed_ordering_mode": "N/A"
+                },
+                "pci": {
+                    "pci_bus": "50",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "20B210DE",
+                    "pci_bus_id": "00000000:50:00.0",
+                    "pci_sub_system_id": "146310DE",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "4",
+                            "current_link_gen": "4"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "16x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "replay_rollover_counter": "0",
+                    "tx_util": "1000 KB/s",
+                    "rx_util": "2000 KB/s"
+                },
+                "fan_speed": "N/A",
+                "performance_state": "P0",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_display_clocks_setting": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "81251 MiB",
+                    "used": "3 MiB",
+                    "free": "81248 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "131072 MiB",
+                    "used": "2 MiB",
+                    "free": "131070 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "0 %",
+                    "memory_util": "0 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "fbc_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "Enabled",
+                    "pending_ecc": "Enabled"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "sram_correctable": "0",
+                        "sram_uncorrectable": "0",
+                        "dram_correctable": "0",
+                        "dram_uncorrectable": "0"
+                    },
+                    "aggregate": {
+                        "sram_correctable": "0",
+                        "sram_uncorrectable": "0",
+                        "dram_correctable": "0",
+                        "dram_uncorrectable": "0"
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_pagelist": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_pagelist": "N/A"
+                    },
+                    "pending_blacklist": "N/A",
+                    "pending_retirement": "N/A"
+                },
+                "remapped_rows": {
+                    "remapped_row_corr": "0",
+                    "remapped_row_unc": "0",
+                    "remapped_row_pending": "No",
+                    "remapped_row_failure": "No",
+                    "row_remapper_histogram": {
+                        "row_remapper_histogram_max": "640 bank(s)",
+                        "row_remapper_histogram_high": "0 bank(s)",
+                        "row_remapper_histogram_partial": "0 bank(s)",
+                        "row_remapper_histogram_low": "0 bank(s)",
+                        "row_remapper_histogram_none": "0 bank(s)"
+                    }
+                },
+                "temperature": {
+                    "gpu_temp": "30 C",
+                    "gpu_temp_max_threshold": "92 C",
+                    "gpu_temp_slow_threshold": "89 C",
+                    "gpu_temp_max_gpu_threshold": "85 C",
+                    "gpu_target_temperature": "N/A",
+                    "memory_temp": "48 C",
+                    "gpu_temp_max_mem_threshold": "95 C"
+                },
+                "supported_gpu_target_temp": {
+                    "gpu_target_temp_min": "N/A",
+                    "gpu_target_temp_max": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P0",
+                    "power_management": "Supported",
+                    "power_draw": "65.51 W",
+                    "power_limit": "400.00 W",
+                    "default_power_limit": "400.00 W",
+                    "enforced_power_limit": "400.00 W",
+                    "min_power_limit": "100.00 W",
+                    "max_power_limit": "400.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "210 MHz",
+                    "sm_clock": "210 MHz",
+                    "mem_clock": "1593 MHz",
+                    "video_clock": "585 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "1155 MHz",
+                    "mem_clock": "1593 MHz"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "1155 MHz",
+                    "mem_clock": "1593 MHz"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1410 MHz",
+                    "sm_clock": "1410 MHz",
+                    "mem_clock": "1593 MHz",
+                    "video_clock": "1290 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "1410 MHz"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": {
+                    "supported_mem_clock": {
+                        "value": "1593 MHz",
+                        "supported_graphics_clock": [
+                            "1410 MHz",
+                            "1395 MHz",
+                            "1380 MHz",
+                            "1365 MHz",
+                            "1350 MHz",
+                            "1335 MHz",
+                            "1320 MHz",
+                            "1305 MHz",
+                            "1290 MHz",
+                            "1275 MHz",
+                            "1260 MHz",
+                            "1245 MHz",
+                            "1230 MHz",
+                            "1215 MHz",
+                            "1200 MHz",
+                            "1185 MHz",
+                            "1170 MHz",
+                            "1155 MHz",
+                            "1140 MHz",
+                            "1125 MHz",
+                            "1110 MHz",
+                            "1095 MHz",
+                            "1080 MHz",
+                            "1065 MHz",
+                            "1050 MHz",
+                            "1035 MHz",
+                            "1020 MHz",
+                            "1005 MHz",
+                            "990 MHz",
+                            "975 MHz",
+                            "960 MHz",
+                            "945 MHz",
+                            "930 MHz",
+                            "915 MHz",
+                            "900 MHz",
+                            "885 MHz",
+                            "870 MHz",
+                            "855 MHz",
+                            "840 MHz",
+                            "825 MHz",
+                            "810 MHz",
+                            "795 MHz",
+                            "780 MHz",
+                            "765 MHz",
+                            "750 MHz",
+                            "735 MHz",
+                            "720 MHz",
+                            "705 MHz",
+                            "690 MHz",
+                            "675 MHz",
+                            "660 MHz",
+                            "645 MHz",
+                            "630 MHz",
+                            "615 MHz",
+                            "600 MHz",
+                            "585 MHz",
+                            "570 MHz",
+                            "555 MHz",
+                            "540 MHz",
+                            "525 MHz",
+                            "510 MHz",
+                            "495 MHz",
+                            "480 MHz",
+                            "465 MHz",
+                            "450 MHz",
+                            "435 MHz",
+                            "420 MHz",
+                            "405 MHz",
+                            "390 MHz",
+                            "375 MHz",
+                            "360 MHz",
+                            "345 MHz",
+                            "330 MHz",
+                            "315 MHz",
+                            "300 MHz",
+                            "285 MHz",
+                            "270 MHz",
+                            "255 MHz",
+                            "240 MHz",
+                            "225 MHz",
+                            "210 MHz"
+                        ]
+                    }
+                },
+                "processes": null,
+                "accounted_processes": null
+            }
+        ]
+    }
+}
